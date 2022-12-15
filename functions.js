@@ -46,16 +46,15 @@ postedJob(90000, 110000, "EchoStar");
 // checkStock(1, "Salsa");
 // => "Salsa - running LOW"
 
-function checkStock(num, product) {
-  if(num >= 4){
-    console.log(`${product} is stocked`);
-  } else if(num <=4){
-    console.log(`${product} - running LOW`);
-  } else if(num ===0){
-    console.log(`${product} - OUT of stock!`);
-  } else {console.log()}
+function checkStock(number, product) {
+  if (number >= 4) {
+    console.log(`${product} is stocked`)
+  } else if (number >= 1) {
+    console.log(`${product} is running LOW`)
+  } else {
+    console.log(`${product} is OUT of stock`)
   }
-
+}
 checkStock("4", "Cofee")
 checkStock("3", "Tortillas");
 checkStock("0", "Cheese");
