@@ -25,51 +25,39 @@ argument(1, 1)
 
 // => The basic formula of average is the sum of all the values divided by the total number of values.
 
-function postedJob(Value1, Value2, EchoStar) {
-
-var numberOfValue = 2
-var sum = Value1 + Value2;
-var div = sum /= numberOfValue;
-
-console.log(`Job post for a position in EchoStar company. The minimum and maximum of a pay range for a posted job are 
-${Value1} and ${Value2}. The pay range is: $ ${div}`);
-
+function postedJob(value1, value2, company) {
+var div = value2 - value1;
+console.log(`Job post for a position in ${company}. The pay range is: $ ${div}`);
 }
-
-postedJob(70000, 110000);
+postedJob(90000, 110000, "EchoStar");
 
 
 // 4: Write a function that satifies the following interaction pattern:
 
 // checkStock(4, "Coffee");
-// // => "Coffee is stocked"
-
-function checkStock(num, Coffee) {
-console.log("Coffee is stocked");
-}
-checkStock("4")
+// => "Coffee is stocked"
 
 // checkStock(3, "Tortillas");
-// // => "Tortillas - running LOW"
-
-function checkStock (num, Tortillas) {
-console.log("Tortillas - running LOW")
-}
-checkStock(3);
+// => "Tortillas - running LOW"
 
 // checkStock(0, "Cheese");
-// // => "Cheese - OUT of stock!"
-
-function checkStock(num, Cheese){
-console.log("Cheese - OUT of stock!");
-}
-checkStock(0);
+// => "Cheese - OUT of stock!"
 
 // checkStock(1, "Salsa");
-// // => "Salsa - running LOW"
+// => "Salsa - running LOW"
 
-function checkStock(num, Salsa){
-console.log("Salsa - running LOW");
-}
-checkStock(1);
+function checkStock(num, product) {
+  if(num >= 4){
+    console.log(`${product} is stocked`);
+  } else if(num <=4){
+    console.log(`${product} - running LOW`);
+  } else if(num ===0){
+    console.log(`${product} - OUT of stock!`);
+  } else {console.log()}
+  }
+
+checkStock("4", "Cofee")
+checkStock("3", "Tortillas");
+checkStock("0", "Cheese");
+checkStock("1", "Salsa");
 
