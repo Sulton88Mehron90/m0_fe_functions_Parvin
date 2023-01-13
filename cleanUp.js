@@ -14,8 +14,6 @@
 
 // nameQuestion()
 
-
-
 function nameQuestion(name) {
   console.log("Hello, what is your name?");
   console.log(`Hello, my name is ${name}`);
@@ -28,7 +26,6 @@ nameQuestion("Parvin")
 // //  --> Add interpolation `${name}` in `console.log` and in function call as argument.
 // //  --> Add two more `console log`.
 
-
 // EX 2:
 
 // function addThreeNums(first, second, third) {
@@ -38,8 +35,6 @@ nameQuestion("Parvin")
 
 // addThreeNums(1, 2, 3);
 // addThreeNums(4, 2, 7);
-
-
 
 function addThreeNums(first, second, third) {
   var sum = first + second + third
@@ -63,8 +58,6 @@ function addThreeNums(first, second, third) {
 
 // makeFreshPesto();
 
-
-
 function makeFreshPesto(){
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
@@ -85,8 +78,6 @@ makeFreshPesto();
 
 //   console.log(`the average is: ${avg}`.)
 //   }
-
-
 
 function average(num1, num2) 
   {

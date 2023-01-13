@@ -8,7 +8,6 @@ function printGreeting(name) {
   printGreeting("Sulton")
   printGreeting("Mehron")
 
-
 // 2: Write a function that accepts 1 argument. The function should console.log a sentence that interpolates the data passed in.
 
 function argument(num1, num2){
@@ -30,7 +29,6 @@ var div = value2 - value1;
 console.log(`Job post for a position in ${company}. The pay range is: $ ${div}`);
 }
 postedJob(90000, 110000, "EchoStar");
-
 
 // 4: Write a function that satifies the following interaction pattern:
 
@@ -55,6 +53,7 @@ function checkStock(number, product) {
     console.log(`${product} is OUT of stock`)
   }
 }
+
 checkStock("4", "Cofee")
 checkStock("3", "Tortillas");
 checkStock("0", "Cheese");
