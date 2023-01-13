@@ -1,21 +1,22 @@
-// 1: Write a function named printGreeting that prints a simple greeting message, the same one, every time it is called. Call this function 3 times.
+// 1: Write a function named printGreeting that prints a simple greeting message, 
+// the same one, every time it is called. Call this function 3 times.
 
 function printGreeting(name) {
-    console.log(`Hello ${name}`);
-  }
+console.log(`Hello ${name}`);
+}
   
-  printGreeting("Parvin")
-  printGreeting("Sulton")
-  printGreeting("Mehron")
+printGreeting("Parvin")
+printGreeting("Sulton")
+printGreeting("Mehron")
 
 // 2: Write a function that accepts 1 argument. The function should console.log a sentence that interpolates the data passed in.
 
-function argument(num1, num2){
+function argument(num1, num2) {
 var sum = num1 + num2;
-    console.log(`${sum} is the answer`);
+console.log(`${sum} is the answer`);
 }
-argument(2, 2)
-argument(1, 1)
+
+argument(2, 2);
 
 // 3: Write a function that has 3 parameters: a string and two numbers. 
 // The String will be the name of a company, and the numbers will represent the minimum and maximum of a pay range for a posted job. 
@@ -26,8 +27,9 @@ argument(1, 1)
 
 function postedJob(value1, value2, company) {
 var div = value2 - value1;
-console.log(`Job post for a position in ${company}. The pay range is: $ ${div}`);
+console.log (`Job post for a position in ${company}. The pay range is: $ ${div}`);
 }
+
 postedJob(90000, 110000, "EchoStar");
 
 // 4: Write a function that satifies the following interaction pattern:

@@ -20,7 +20,7 @@ function nameQuestion(name) {
   console.log(`Nice to meet you, ${name}`);
 }
 
-nameQuestion("Parvin")
+nameQuestion("Parvin");
 
 // //  --> Declared parameter `name` in function definition.
 // //  --> Add interpolation `${name}` in `console.log` and in function call as argument.
@@ -39,7 +39,7 @@ nameQuestion("Parvin")
 function addThreeNums(first, second, third) {
   var sum = first + second + third
   console.log (`${sum} is the answer`);
-      }
+}
   
   addThreeNums(1, 2, 3)
   addThreeNums(4, 2, 7);
@@ -58,12 +58,13 @@ function addThreeNums(first, second, third) {
 
 // makeFreshPesto();
 
-function makeFreshPesto(){
+function makeFreshPesto () {
   console.log("Buy ingredients: basil, parmesan, romano, olive oil, pine nuts, garlic, salt, pepper");
   console.log("Pulse basil and pine nuts");
   console.log("Add garlic and cheeses");
   console.log("Slowly pour in oil");
-  console.log("Season");    }
+  console.log("Season");    
+}
 
 makeFreshPesto();
 
@@ -79,13 +80,11 @@ makeFreshPesto();
 //   console.log(`the average is: ${avg}`.)
 //   }
 
-function average(num1, num2) 
-  {
+function average(num1, num2) {
 var sum = num1 + num2;
-    var avg = sum / 2;
-
-  console.log(`the average is: ${avg}.`)
-  }
+var avg = sum / 2;
+console.log(`the average is: ${avg}.`)
+}
 average(5,6)
 
 // //  --> add Function Call (or Invoke) and moved the dot incide the backtick in console.
